@@ -8,12 +8,37 @@
     tools:context="com.example.pharsh.bluetoothchat.MainActivity">
 
     <TextView
+        android:id="@+id/mainText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome to Bluetooth Chat!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/startChatButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="Start Chat"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Operation Result will be here!"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        app:layout_constraintTop_toBottomOf="@+id/startChatButton"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="291dp" />
 
 </android.support.constraint.ConstraintLayout>
