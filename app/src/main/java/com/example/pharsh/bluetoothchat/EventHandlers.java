@@ -2,12 +2,6 @@ package com.example.pharsh.bluetoothchat;
 
 import android.bluetooth.*;
 
-/**
- * Created by pharsh on 5/10/17.
- *
- * This class will contain all event Handler functions
- */
-
 public class EventHandlers {
 
     public static boolean startButtonClickHandler () {

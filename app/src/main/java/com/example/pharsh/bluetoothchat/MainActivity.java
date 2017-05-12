@@ -6,8 +6,6 @@ import android.widget.Button;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.pharsh.bluetoothchat.EventHandlers;
-
 public class MainActivity extends AppCompatActivity {
 
     static boolean operationResult = false;
